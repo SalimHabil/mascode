@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lpdf-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="lpdf-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0070F3"/>
+      <stop offset="100%" stop-color="#0051B3"/>
+    </linearGradient>
+    <linearGradient id="lpdf-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#lpdf-bg)"/>
+
+  <!-- Top Navbar Bar -->
+  <rect width="800" height="60" fill="#FFFFFF"/>
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Logo -->
+  <rect x="35" y="18" width="24" height="24" rx="4" fill="url(#lpdf-green)"/>
+  <rect x="41" y="24" width="4" height="12" fill="#FFFFFF"/>
+  <rect x="47" y="28" width="4" height="8" fill="#FFFFFF"/>
+  <text x="68" y="36" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="800" fill="#0F172A">LedgPDF</text>
+
+  <!-- Right Header Actions -->
+  <rect x="585" y="16" width="90" height="28" rx="6" fill="#E0F2FE" stroke="#BAE6FD"/>
+  <text x="630" y="34" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#0284C7" text-anchor="middle">Check File</text>
+
+  <rect x="685" y="16" width="50" height="28" rx="6" fill="transparent" stroke="#CBD5E1"/>
+  <text x="710" y="34" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#334155" text-anchor="middle">Login</text>
+
+  <rect x="742" y="16" width="50" height="28" rx="6" fill="url(#lpdf-blue)"/>
+  <text x="767" y="34" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Sign Up</text>
+
+  <!-- Main Headline -->
+  <text x="400" y="115" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="800" fill="#0F172A" text-anchor="middle">
+    Convert PDF Bank Statements to Excel,
+  </text>
+  <text x="400" y="145" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="800" fill="#0F172A" text-anchor="middle">
+    QuickBooks CSV &amp; Xero CSV
+  </text>
+
+  <text x="400" y="172" font-family="'Inter', sans-serif" font-size="12" fill="#64748B" text-anchor="middle">
+    Convert your bank statements to Excel, QuickBooks CSV, and Xero CSV. Fast, accurate, and secure.
+  </text>
+
+  <!-- Green Trial Badge Pill -->
+  <rect x="240" y="188" width="320" height="26" rx="13" fill="url(#lpdf-green)"/>
+  <text x="400" y="205" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">🎁 20 Free Credits (14-Day Trial) — No Credit Card Required</text>
+
+  <!-- Pricing Info Pill -->
+  <rect x="260" y="222" width="280" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A"/>
+  <text x="400" y="238" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#D97706" text-anchor="middle">💡 Pricing: Text PDF = 1 credit/page | Scanned PDF = 2 credits/page</text>
+
+  <!-- Review Rating -->
+  <text x="400" y="268" font-family="'Inter', sans-serif" font-size="11" fill="#475569" text-anchor="middle">
+    <tspan fill="#F59E0B">★★★★★</tspan> "Converted 2 years of bank statements accurately" — Amna N., Accountant
+  </text>
+
+  <!-- Action Buttons -->
+  <rect x="580" y="282" width="90" height="28" rx="6" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="625" y="300" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#1D4ED8" text-anchor="middle">🔑 API Access</text>
+
+  <rect x="680" y="282" width="70" height="28" rx="6" fill="url(#lpdf-blue)"/>
+  <text x="715" y="300" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Pricing</text>
+
+  <!-- Conversion Container Box -->
+  <g transform="translate(60, 325)">
+    <rect width="680" height="110" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    
+    <!-- Tab Controls -->
+    <rect x="15" y="12" width="140" height="30" rx="6" fill="#EFF6FF" stroke="#BFDBFE"/>
+    <text x="85" y="31" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#1D4ED8" text-anchor="middle">📄 PDF → Excel &amp; CSV</text>
+
+    <rect x="165" y="12" width="120" height="30" rx="6" fill="#F8FAFC"/>
+    <text x="225" y="31" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="middle">❎ Excel → PDF</text>
+
+    <!-- Upload Input Drop Zone -->
+    <rect x="250" y="52" width="180" height="36" rx="6" fill="#FFFFFF" stroke="#0070F3" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <text x="340" y="74" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#0070F3" text-anchor="middle">☁️ Choose PDF Bank Statement</text>
+  </g>
+</svg>

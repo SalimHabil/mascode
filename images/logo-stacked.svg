@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" width="200" height="180">
+  <!-- Stacked Mascode Logo (Icon above Typography) -->
+  <g transform="translate(50, 10) scale(1)">
+    <!-- White Geometric 'M' -->
+    <path d="M10 15 L50 50 L90 15 L90 90 L72 90 L72 38 L50 58 L28 38 L28 90 L10 90 Z" fill="#FFFFFF"/>
+    <!-- Cyan Downward Chevron -->
+    <path d="M30 60 L50 80 L70 60 L70 72 L50 92 L30 72 Z" fill="#00B4FF"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="100" y="140" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="28" letter-spacing="0.5">
+    <tspan fill="#FFFFFF">MAS</tspan><tspan fill="#00B4FF">CODE</tspan>
+  </text>
+  <text x="100" y="160" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="600" font-size="10" fill="#B8C2CC" letter-spacing="2">
+    DOUALA • CAMEROON
+  </text>
+</svg>

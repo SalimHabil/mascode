@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Antigravity / Agent logs
+.antigravity/
+.gemini/
+
+# Build / Temporary
+.vercel/
+dist/
+build/

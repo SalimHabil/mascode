@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="tm-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#12B76A"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="450" fill="url(#tm-bg)"/>
+
+  <!-- Top Navbar Bar -->
+  <rect width="800" height="60" fill="#FFFFFF"/>
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Logo -->
+  <circle cx="45" cy="30" r="16" fill="url(#tm-green)"/>
+  <text x="45" y="35" font-family="'Inter', sans-serif" font-size="13" font-weight="800" fill="#FFFFFF" text-anchor="middle">TM</text>
+  <text x="72" y="35" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#0F172A">TrainMastas</text>
+
+  <!-- Nav Links -->
+  <text x="210" y="35" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#12B76A">Home</text>
+  <line x1="210" y1="42" x2="250" y2="42" stroke="#12B76A" stroke-width="2"/>
+  <text x="275" y="35" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#64748B">Courses</text>
+
+  <!-- Search Input -->
+  <rect x="360" y="16" width="220" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="375" y="35" font-family="'Inter', sans-serif" font-size="12" fill="#94A3B8">Search courses...</text>
+
+  <!-- Nav Buttons -->
+  <rect x="610" y="16" width="70" height="30" rx="15" fill="#E8F5E9"/>
+  <text x="645" y="35" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#12B76A" text-anchor="middle">Login</text>
+  <rect x="690" y="16" width="75" height="30" rx="15" fill="url(#tm-green)"/>
+  <text x="727" y="35" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Signup</text>
+
+  <!-- Hero Content Left -->
+  <text x="40" y="140" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="800" fill="#0F172A">
+    <tspan x="40" dy="0">Your All-in-One Platform</tspan>
+    <tspan x="40" dy="40">for YouTube-Based</tspan>
+    <tspan x="40" dy="40">Courses</tspan>
+  </text>
+
+  <text x="40" y="260" font-family="'Inter', sans-serif" font-size="13" font-weight="400" fill="#64748B" width="360">
+    <tspan x="40" dy="0">Connect with passionate instructors and a thriving</tspan>
+    <tspan x="40" dy="20">learning community. Access high-quality YouTube</tspan>
+    <tspan x="40" dy="20">content transformed into structured courses.</tspan>
+  </text>
+
+  <!-- CTA Button -->
+  <rect x="40" y="330" width="130" height="42" rx="21" fill="url(#tm-green)"/>
+  <text x="105" y="356" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Get Started</text>
+
+  <!-- Right Visual Collage Mockup -->
+  <g transform="translate(460, 90)">
+    <rect width="300" height="320" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Top Left Image Box -->
+    <rect x="15" y="15" width="130" height="135" rx="8" fill="#12B76A" opacity="0.15"/>
+    <circle cx="80" cy="70" r="28" fill="#12B76A" opacity="0.4"/>
+    
+    <!-- Top Right Image Box -->
+    <rect x="155" y="15" width="130" height="135" rx="8" fill="#059669" opacity="0.2"/>
+    <polygon points="210,60 230,85 190,85" fill="#059669" opacity="0.5"/>
+
+    <!-- Bottom Left Image Box -->
+    <rect x="15" y="165" width="130" height="140" rx="8" fill="#F1F5F9"/>
+    
+    <!-- Bottom Right Image Box -->
+    <rect x="155" y="165" width="130" height="140" rx="8" fill="#10B981" opacity="0.25"/>
+    <circle cx="220" cy="235" r="24" fill="#10B981" opacity="0.5"/>
+  </g>
+</svg>

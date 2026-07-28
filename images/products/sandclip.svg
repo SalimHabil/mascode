@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <rect width="600" height="360" rx="12" fill="#081526" stroke="rgba(245,158,11,0.3)" stroke-width="2"/>
+  <rect width="600" height="36" rx="12" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="24" cy="18" r="5" fill="#FF5F56"/><circle cx="40" cy="18" r="5" fill="#FFBD2E"/><circle cx="56" cy="18" r="5" fill="#27C93F"/>
+  <text x="90" y="22" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#B8C2CC">https://sandclip.mascodelab.com (Coming Soon)</text>
+  
+  <circle cx="300" cy="160" r="45" fill="rgba(245,158,11,0.15)"/>
+  <path d="M290 150 L310 150 M300 135 L300 165 M285 175 L315 175" stroke="#F59E0B" stroke-width="3"/>
+  <text x="300" y="240" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="16" fill="#F59E0B">Sandclip Document Sharing</text>
+  <text x="300" y="265" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#B8C2CC">Encrypted & Self-Destructing File Links</text>
+</svg>

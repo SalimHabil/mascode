@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Standalone Mascode Geometric 'M' Icon Mark -->
+  <!-- Outer White Geometric 'M' Structure -->
+  <path d="M10 15 L50 50 L90 15 L90 90 L72 90 L72 38 L50 58 L28 38 L28 90 L10 90 Z" fill="#FFFFFF"/>
+  
+  <!-- Inner Cyan Downward Chevron -->
+  <path d="M30 60 L50 80 L70 60 L70 72 L50 92 L30 72 Z" fill="#00B4FF"/>
+</svg>
