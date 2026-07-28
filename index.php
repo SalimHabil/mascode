@@ -142,7 +142,7 @@ include_once 'includes/navbar.php';
                     <h3 class="product-title">LedgPDF</h3>
                     <p class="product-desc">AI-powered bank statement converter that automatically transforms PDF statements into structured Excel/CSV data.</p>
                 </div>
-                <div class="product-action"><a href="https://ledgpdf.mascodelab.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;"><span>Visit Website</span><i data-lucide="external-link" class="btn-icon"></i></a></div>
+                <div class="product-action"><a href="https://ledgpdf.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;"><span>Visit Website</span><i data-lucide="external-link" class="btn-icon"></i></a></div>
             </div>
 
             <div class="product-card">
@@ -152,7 +152,7 @@ include_once 'includes/navbar.php';
                     <h3 class="product-title">LedgDrop</h3>
                     <p class="product-desc">Client document collection platform designed for accounting firms and businesses to securely receive client files.</p>
                 </div>
-                <div class="product-action"><a href="https://ledgdrop.mascodelab.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;"><span>Visit Website</span><i data-lucide="external-link" class="btn-icon"></i></a></div>
+                <div class="product-action"><a href="https://ledgdrop.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;"><span>Visit Website</span><i data-lucide="external-link" class="btn-icon"></i></a></div>
             </div>
 
             <div class="product-card">
@@ -162,7 +162,7 @@ include_once 'includes/navbar.php';
                     <h3 class="product-title">SchoolRipe</h3>
                     <p class="product-desc">Comprehensive multi-school management platform handling student records, fees, grading, and parent portals.</p>
                 </div>
-                <div class="product-action"><a href="https://schoolripe.mascodelab.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;"><span>Visit Website</span><i data-lucide="external-link" class="btn-icon"></i></a></div>
+                <div class="product-action"><a href="https://schoolripe.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;"><span>Visit Website</span><i data-lucide="external-link" class="btn-icon"></i></a></div>
             </div>
         </div>
 

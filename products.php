@@ -43,7 +43,7 @@ include_once 'includes/navbar.php';
                     </p>
                 </div>
                 <div class="product-action">
-                    <a href="https://ledgpdf.mascodelab.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                    <a href="https://ledgpdf.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
                         <span>Visit Website</span>
                         <i data-lucide="external-link" class="btn-icon"></i>
                     </a>
@@ -70,7 +70,7 @@ include_once 'includes/navbar.php';
                     </p>
                 </div>
                 <div class="product-action">
-                    <a href="https://ledgdrop.mascodelab.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                    <a href="https://ledgdrop.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
                         <span>Visit Website</span>
                         <i data-lucide="external-link" class="btn-icon"></i>
                     </a>
@@ -97,7 +97,7 @@ include_once 'includes/navbar.php';
                     </p>
                 </div>
                 <div class="product-action">
-                    <a href="https://schoolripe.mascodelab.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                    <a href="https://schoolripe.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
                         <span>Visit Website</span>
                         <i data-lucide="external-link" class="btn-icon"></i>
                     </a>
@@ -124,7 +124,7 @@ include_once 'includes/navbar.php';
                     </p>
                 </div>
                 <div class="product-action">
-                    <a href="https://trainmastas.mascodelab.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                    <a href="https://trainmastas.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
                         <span>Visit Website</span>
                         <i data-lucide="external-link" class="btn-icon"></i>
                     </a>
