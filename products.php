@@ -131,32 +131,33 @@ include_once 'includes/navbar.php';
                 </div>
             </div>
 
-            <!-- 5. Sandclip -->
+            <!-- 5. SandClip -->
             <div class="product-card">
                 <div>
                     <div class="product-img-wrapper">
-                        <img src="images/products/sandclip.svg" alt="Sandclip Interface Preview" loading="lazy">
+                        <img src="images/products/sandclip.svg" alt="SandClip Interface Preview" loading="lazy">
                     </div>
                     <div class="product-header">
                         <div class="product-logo-box">
-                            <i data-lucide="share-2"></i>
+                            <i data-lucide="clapperboard"></i>
                         </div>
-                        <span class="status-badge soon">
-                            <span class="badge-dot"></span> Coming Soon
+                        <span class="status-badge live">
+                            <span class="badge-dot"></span> Live
                         </span>
                     </div>
-                    <h3 class="product-title">Sandclip</h3>
+                    <h3 class="product-title">SandClip</h3>
                     <p class="product-desc">
-                        A modern, privacy-focused document sharing platform featuring end-to-end file encryption, custom password protection, expiration timers, and download analytics for sensitive files.
+                        An AI video automation platform that turns text ideas into viral faceless videos on autopilot. Generates, edits, and schedules reels for TikTok, Instagram Reels, and YouTube Shorts.
                     </p>
                 </div>
                 <div class="product-action">
-                    <button class="btn btn-secondary btn-disabled" disabled style="width:100%;">
-                        <span>Coming Soon</span>
-                        <i data-lucide="lock" class="btn-icon"></i>
-                    </button>
+                    <a href="https://sandclip.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                        <span>Visit Website</span>
+                        <i data-lucide="external-link" class="btn-icon"></i>
+                    </a>
                 </div>
             </div>
+
 
             <!-- 6. AskInterra -->
             <div class="product-card">

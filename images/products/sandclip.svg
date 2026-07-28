@@ -1,11 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
-  <rect width="600" height="360" rx="12" fill="#081526" stroke="rgba(245,158,11,0.3)" stroke-width="2"/>
-  <rect width="600" height="36" rx="12" fill="rgba(255,255,255,0.05)"/>
-  <circle cx="24" cy="18" r="5" fill="#FF5F56"/><circle cx="40" cy="18" r="5" fill="#FFBD2E"/><circle cx="56" cy="18" r="5" fill="#27C93F"/>
-  <text x="90" y="22" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#B8C2CC">https://sandclip.mascodelab.com (Coming Soon)</text>
-  
-  <circle cx="300" cy="160" r="45" fill="rgba(245,158,11,0.15)"/>
-  <path d="M290 150 L310 150 M300 135 L300 165 M285 175 L315 175" stroke="#F59E0B" stroke-width="3"/>
-  <text x="300" y="240" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="16" fill="#F59E0B">Sandclip Document Sharing</text>
-  <text x="300" y="265" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#B8C2CC">Encrypted & Self-Destructing File Links</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sclip-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="sclip-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#sclip-bg)"/>
+
+  <!-- Top Navbar Bar -->
+  <rect width="800" height="60" fill="#FFFFFF"/>
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Logo -->
+  <g transform="translate(35, 18)">
+    <rect width="26" height="24" rx="6" fill="#3B82F6" opacity="0.15"/>
+    <path d="M 6,7 L 16,7 C 18,7 19,8 19,10 L 19,14 C 19,16 18,17 16,17 L 6,17 C 4,17 3,16 3,14 L 3,10 C 3,8 4,7 6,7 Z" stroke="#3B82F6" stroke-width="2" fill="none"/>
+    <polygon points="19,10 23,7 23,17 19,14" fill="#3B82F6"/>
+  </g>
+  <text x="70" y="36" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="800" fill="#0F172A">SandClip</text>
+
+  <!-- Nav Links -->
+  <text x="320" y="35" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#475569">How it works</text>
+  <text x="420" y="35" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#475569">FAQ</text>
+
+  <!-- Header Buttons -->
+  <text x="650" y="35" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#334155">Log in</text>
+  <rect x="700" y="16" width="70" height="30" rx="15" fill="url(#sclip-blue)"/>
+  <text x="735" y="35" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">Sign up</text>
+
+  <!-- Left Content Column -->
+  <!-- Trusted Pill -->
+  <rect x="40" y="100" width="145" height="26" rx="13" fill="#E0E7FF"/>
+  <circle cx="53" cy="113" r="3" fill="#4338CA"/>
+  <text x="63" y="117" font-family="'Inter', sans-serif" font-size="10.5" font-weight="600" fill="#4338CA">trusted by 430k+ creators</text>
+
+  <!-- Main Title -->
+  <text x="40" y="170" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="800" fill="#0F172A">
+    <tspan x="40" dy="0">Turn ideas into</tspan>
+    <tspan x="40" dy="42" fill="#4F46E5">viral faceless</tspan>
+    <tspan x="40" dy="42" fill="#4F46E5">videos</tspan>
+    <tspan x="40" dy="42">on autopilot</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="40" y="325" font-family="'Inter', sans-serif" font-size="12" fill="#64748B">
+    <tspan x="40" dy="0">The only AI that generates, edits &amp; posts reels while</tspan>
+    <tspan x="40" dy="18">you sleep. Perfect for TikTok, Reels &amp; Shorts.</tspan>
+  </text>
+
+  <!-- Right Visual Card -->
+  <g transform="translate(420, 100)">
+    <rect width="340" height="300" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="drop-shadow(0 20px 30px rgba(79,70,229,0.12))"/>
+    
+    <text x="25" y="40" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#334155">Formats</text>
+
+    <!-- Format Option 1 (Selected) -->
+    <circle cx="34" cy="65" r="7" fill="#4F46E5"/>
+    <path d="M 31,65 L 33,67 L 37,63" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+    <text x="48" y="65" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" fill="#0F172A">Storytelling</text>
+    <text x="48" y="78" font-family="'Inter', sans-serif" font-size="9.5" fill="#64748B">Classic storytelling format</text>
+
+    <!-- Format Option 2 -->
+    <circle cx="34" cy="110" r="6" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+    <text x="48" y="110" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#334155">Top 5 Lists</text>
+    <text x="48" y="123" font-family="'Inter', sans-serif" font-size="9.5" fill="#64748B">Engaging countdown videos highlighting the best</text>
+
+    <!-- Format Option 3 -->
+    <circle cx="34" cy="155" r="6" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+    <text x="48" y="155" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#334155">How To Guides</text>
+    <text x="48" y="168" font-family="'Inter', sans-serif" font-size="9.5" fill="#64748B">Step by step tutorials and educational content</text>
+
+    <!-- Input Prompt Box -->
+    <text x="25" y="210" font-family="'Inter', sans-serif" font-size="10.5" font-weight="600" fill="#475569">What do you want your content to be about?</text>
+    <rect x="25" y="222" width="290" height="45" rx="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="35" y="248" font-family="'Inter', sans-serif" font-size="11" fill="#94A3B8">Stories about space exploration...</text>
+  </g>
 </svg>
