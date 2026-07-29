@@ -4,8 +4,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <header class="navbar-wrapper" id="navbar">
     <div class="container navbar-container">
-        <a href="index.php" class="navbar-logo" aria-label="Mascode Lab Home">
-            <img src="images/logo.svg" alt="Mascode Lab Logo" class="logo-img" width="190" height="48">
+        <a href="index.php" class="navbar-logo" aria-label="Mascode Home">
+            <img src="images/logo.svg" alt="Mascode Logo" class="logo-img" width="190" height="48">
         </a>
 
         <nav class="nav-desktop">

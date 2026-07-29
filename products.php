@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Products We've Built | Mascode Lab - SaaS & Software Platforms";
-$pageDescription = "Explore products built by Mascode Lab: LedgPDF, LedgDrop, SchoolRipe, TrainMastas, Sandclip, and AskInterra. Every product solves a real business problem.";
+$pageTitle = "Products We've Built | Mascode - SaaS & Software Platforms";
+$pageDescription = "Explore products built by Mascode: LedgPDF, LedgDrop, SchoolRipe, TrainMastas, Sandclip, and AskInterra. Every product solves a real business problem.";
 include_once 'includes/header.php';
 include_once 'includes/navbar.php';
 ?>
@@ -81,7 +81,7 @@ include_once 'includes/navbar.php';
             <div class="product-card">
                 <div>
                     <div class="product-img-wrapper">
-                        <img src="images/products/schoolripe.svg" alt="SchoolRipe Interface Preview" loading="lazy">
+                        <img src="images/products/schoolripe-preview.png" alt="SchoolRipe Interface Preview" loading="lazy">
                     </div>
                     <div class="product-header">
                         <div class="product-logo-box">
@@ -194,7 +194,7 @@ include_once 'includes/navbar.php';
     <div class="container text-center" style="text-align:center; max-width:720px; margin:0 auto;">
         <h2 class="section-title">Have a Product Idea in Mind?</h2>
         <p class="section-description" style="margin-bottom:2rem;">
-            Partner with Mascode Lab to design, build, and launch your SaaS or enterprise software product.
+            Partner with Mascode to design, build, and launch your SaaS or enterprise software product.
         </p>
         <a href="contact.php" class="btn btn-primary btn-glow">
             <span>Build Your Product With Us</span>

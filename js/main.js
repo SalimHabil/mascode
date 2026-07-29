@@ -1,5 +1,5 @@
 /**
- * Mascode Lab Official Website - JavaScript Controller
+ * Mascode Official Website - JavaScript Controller
  * Multi-page navigation, mobile drawer controller, 3D card tilt, scroll reveal & AJAX contact form
  */
 
@@ -126,11 +126,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /* ------------------------------------------------------------------------
-     * 3. Scroll Reveal Observer for Entrance Animations
+     * 3. Scroll Reveal Observer for Mobile & Desktop Entrance Animations
      * ------------------------------------------------------------------------ */
-    const revealElements = document.querySelectorAll('.service-card, .product-card, .feature-card, .timeline-step, .section-header');
+    const revealElements = document.querySelectorAll('.service-card, .product-card, .feature-card, .timeline-step, .section-header, .team-photo-card, .academy-banner, .trust-item');
 
-    
     revealElements.forEach(el => el.classList.add('reveal'));
 
     if ('IntersectionObserver' in window) {
@@ -140,7 +139,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     entry.target.classList.add('revealed');
                 }
             });
-        }, { threshold: 0.1 });
+        }, { 
+            threshold: 0.05,
+            rootMargin: '0px 0px -20px 0px' 
+        });
 
         revealElements.forEach(el => revealObserver.observe(el));
     } else {
@@ -148,31 +150,41 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /* ------------------------------------------------------------------------
-     * 4. 3D Tilt Hover Effect for Desktop Cards
+     * 4. 3D Tilt Hover & Touch Motion for Cards (Mobile & Desktop)
      * ------------------------------------------------------------------------ */
-    if (window.innerWidth > 768) {
-        const tiltCards = document.querySelectorAll('.service-card, .product-card, .hero-visual-card');
+    const tiltCards = document.querySelectorAll('.service-card, .product-card, .hero-visual-card');
 
-        tiltCards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                
-                const centerX = rect.width / 2;
-                const centerY = rect.height / 2;
-                
-                const rotateX = ((y - centerY) / centerY) * -6;
-                const rotateY = ((x - centerX) / centerX) * 6;
+    tiltCards.forEach(card => {
+        // Mouse tilt for desktop
+        card.addEventListener('mousemove', (e) => {
+            if (window.innerWidth <= 768) return;
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const rotateX = ((y - centerY) / centerY) * -6;
+            const rotateY = ((x - centerX) / centerX) * 6;
 
-                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-6px) scale(1.02)`;
-            });
-
-            card.addEventListener('mouseleave', () => {
-                card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px) scale(1)';
-            });
+            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-6px) scale(1.02)`;
         });
-    }
+
+        card.addEventListener('mouseleave', () => {
+            if (window.innerWidth <= 768) return;
+            card.style.transform = '';
+        });
+
+        // Touch feedback for mobile devices
+        card.addEventListener('touchstart', () => {
+            card.style.transform = 'scale(0.98)';
+        }, { passive: true });
+
+        card.addEventListener('touchend', () => {
+            card.style.transform = '';
+        }, { passive: true });
+    });
 
     /* ------------------------------------------------------------------------
      * 5. AJAX Contact Form Submission
@@ -220,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } catch (error) {
                 console.error('Contact Form Error:', error);
                 if (formResponseMsg) {
-                    formResponseMsg.textContent = 'Thank you! Your message has been sent to Mascode Lab.';
+                    formResponseMsg.textContent = 'Thank you! Your message has been sent to Mascode.';
                     formResponseMsg.className = 'form-response-msg success';
                     formResponseMsg.style.display = 'block';
                     contactForm.reset();

@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "About Us | Mascode Lab - Global Software Engineering Company";
-$pageDescription = "Learn about Mascode Lab: a software engineering company based in Douala, Cameroon, building digital products and training tech leaders for the global market.";
+$pageTitle = "About Us | Mascode - Global Software Engineering Company";
+$pageDescription = "Learn about Mascode: a software engineering company based in Douala, Cameroon, building digital products and training tech leaders for the global market.";
 include_once 'includes/header.php';
 include_once 'includes/navbar.php';
 ?>
@@ -12,9 +12,9 @@ include_once 'includes/navbar.php';
             <i data-lucide="building"></i>
             <span>Our Story & Values</span>
         </div>
-        <h1 class="page-hero-title">About <span class="text-gradient">Mascode Lab</span></h1>
+        <h1 class="page-hero-title">About <span class="text-gradient">Mascode</span></h1>
         <p class="page-hero-subtitle">
-            Based in Douala, Cameroon, Mascode Lab is dedicated to engineering world-class software solutions for clients and businesses worldwide.
+            Based in Douala, Cameroon, Mascode is dedicated to engineering world-class software solutions for clients and businesses worldwide.
         </p>
 
         <div class="team-photo-card" style="max-width: 850px; margin: 2rem auto 0 auto;">
@@ -36,13 +36,13 @@ include_once 'includes/navbar.php';
             <div class="about-text">
                 <h2 class="section-title">Engineering Technology for Global Growth</h2>
                 <p>
-                    Mascode Lab was founded in <strong>Douala, Cameroon</strong> with a clear mandate: to deliver enterprise-grade software engineering that solves real business problems for startups, SMEs, and enterprise organizations across the global market.
+                    Mascode was founded in <strong>Douala, Cameroon</strong> with a clear mandate: to deliver enterprise-grade software engineering that solves real business problems for startups, SMEs, and enterprise organizations across the global market.
                 </p>
                 <p>
                     We believe that modern software should be fast, secure, beautiful, and maintainable. Whether we are building custom ERP systems, AI bank statement processors, school management tools, or cross-platform mobile apps, our work is defined by technical rigor and clean architectural standards.
                 </p>
                 <p>
-                    Through <strong>Mascode Academy</strong>, we provide practical training in <strong>Web Development</strong>, <strong>Graphic Design</strong>, and <strong>Video Editing</strong>, preparing talent for high-impact careers worldwide.
+                    Through <strong>Mascode Academy</strong>, we provide practical hands-on training in <strong>Web Engineering</strong>, <strong>Mobile App Development</strong>, <strong>Graphic Design & UI/UX</strong>, and <strong>AI Development & Machine Learning</strong>, preparing talent for high-impact careers worldwide.
                 </p>
             </div>
 
@@ -82,6 +82,49 @@ include_once 'includes/navbar.php';
                     <p class="value-desc">
                         Technical Excellence, Integrity, Innovation, Continuous Learning, and Client Satisfaction.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- REAL OFFICE & TEAM GALLERY -->
+<section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-subtitle-badge"><i data-lucide="camera"></i><span>Real Culture & Atmosphere</span></div>
+            <h2 class="section-title">Inside Our Douala Engineering & Academy Hub</h2>
+            <p class="section-description">A glimpse into our daily collaboration, hands-on mentorship, and software product engineering in Douala, Cameroon.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+            <div class="team-photo-card">
+                <img src="images/office-team-1.jpg" alt="Mascode Team Software Engineering Session" loading="lazy" style="width:100%; height:260px; object-fit:cover; border-radius:12px;">
+                <div class="team-photo-badge" style="padding:0.75rem 1rem;">
+                    <div>
+                        <div class="team-badge-text" style="font-size:0.9rem;">Product Engineering & Code Review</div>
+                        <div class="team-badge-sub" style="font-size:0.75rem;">Douala Office Studio</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-photo-card">
+                <img src="images/office-team-2.jpg" alt="Mascode Academy Hands-On Mentorship Session" loading="lazy" style="width:100%; height:260px; object-fit:cover; border-radius:12px;">
+                <div class="team-photo-badge" style="padding:0.75rem 1rem;">
+                    <div>
+                        <div class="team-badge-text" style="font-size:0.9rem;">1-on-1 Senior Mentorship</div>
+                        <div class="team-badge-sub" style="font-size:0.75rem;">Web & Mobile Development</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-photo-card">
+                <img src="images/office-team-3.jpg" alt="Mascode Developers Collaborating on AI & SaaS Platforms" loading="lazy" style="width:100%; height:260px; object-fit:cover; border-radius:12px;">
+                <div class="team-photo-badge" style="padding:0.75rem 1rem;">
+                    <div>
+                        <div class="team-badge-text" style="font-size:0.9rem;">Collaborative Project Sprint</div>
+                        <div class="team-badge-sub" style="font-size:0.75rem;">Building SaaS & AI Solutions</div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -32,11 +32,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Success response
     $response['success'] = true;
-    $response['message'] = 'Thank you for contacting Mascode Lab! Our engineering team will get back to you within 24 hours.';
+    $response['message'] = 'Thank you for contacting Mascode! Our engineering team will get back to you within 24 hours.';
 
     // Send email notification (if mail configured)
     $to = 'contact@mascodelab.com';
-    $subject = "Inquiry from Mascode Lab Website: " . $name;
+    $subject = "Inquiry from Mascode Website: " . $name;
     $body = "Name: $name\nEmail: $email\nCompany: " . ($company ? $company : 'N/A') . "\n\nMessage:\n$message";
     $headers = "From: noreply@mascodelab.com\r\nReply-To: $email\r\n";
 

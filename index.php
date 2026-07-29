@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Mascode Lab | Software Engineering & Creative Digital Agency";
-$pageDescription = "Mascode Lab is a software engineering company based in Douala, Cameroon. We build modern web applications, mobile apps, SaaS platforms, AI-powered software, Graphic Design, Video Editing, and Digital Solutions for businesses worldwide.";
+$pageTitle = "Mascode | Building People. Building Products.";
+$pageDescription = "Building People. Building Products. Mascode is a software engineering company based in Douala, Cameroon. We build modern web applications, mobile apps, SaaS platforms, AI-powered software, Graphic Design, and Video Editing.";
 include_once 'includes/header.php';
 include_once 'includes/navbar.php';
 ?>
@@ -10,9 +10,9 @@ include_once 'includes/navbar.php';
     <div class="container">
         <div class="hero-grid">
             <div class="hero-content">
-                <div class="hero-badge-location">
-                    <i data-lucide="globe"></i>
-                    <span>Douala, Cameroon • Global Software & Creative Agency</span>
+                <div class="section-subtitle-badge" style="background:rgba(0,180,255,0.12); border-color:rgba(0,180,255,0.3); color:#00B4FF; display:inline-flex; align-items:center; gap:0.5rem; margin-bottom:1.25rem;">
+                    <i data-lucide="sparkles"></i>
+                    <span>Building People. Building Products.</span>
                 </div>
                 
                 <h1 class="hero-title">
@@ -20,7 +20,7 @@ include_once 'includes/navbar.php';
                 </h1>
                 
                 <p class="hero-subheadline">
-                    Mascode Lab is a software engineering and creative digital agency based in Douala, Cameroon. We build web applications, mobile apps, SaaS platforms, AI solutions, Graphic Design, and Video Editing for businesses globally.
+                    Mascode is a software engineering and creative digital company based in Douala, Cameroon. We build web applications, mobile apps, SaaS platforms, AI solutions, Graphic Design, and Video Editing for businesses globally.
                 </p>
 
                 <div class="hero-ctas">
@@ -37,7 +37,7 @@ include_once 'includes/navbar.php';
 
             <!-- Team Photography Showcase Card -->
             <div class="team-photo-card">
-                <img src="images/team-hero.png" alt="Mascode Lab Engineering & Creative Team" loading="eager">
+                <img src="images/team-hero.png" alt="Mascode Engineering & Creative Team" loading="eager">
                 <div class="team-photo-badge">
                     <div>
                         <div class="team-badge-text">Mascode Engineering & Design Team</div>
@@ -157,7 +157,7 @@ include_once 'includes/navbar.php';
 
             <div class="product-card">
                 <div>
-                    <div class="product-img-wrapper"><img src="images/products/schoolripe.svg" alt="SchoolRipe Interface Preview" loading="lazy"></div>
+                    <div class="product-img-wrapper"><img src="images/products/schoolripe-preview.png" alt="SchoolRipe Interface Preview" loading="lazy"></div>
                     <div class="product-header"><div class="product-logo-box"><i data-lucide="building-2"></i></div><span class="status-badge live"><span class="badge-dot"></span> Live</span></div>
                     <h3 class="product-title">SchoolRipe</h3>
                     <p class="product-desc">Comprehensive multi-school management platform handling student records, fees, grading, and parent portals.</p>
@@ -184,8 +184,8 @@ include_once 'includes/navbar.php';
                     <i data-lucide="graduation-cap"></i>
                     <span>Mascode Training Programs</span>
                 </div>
-                <h2 class="academy-title">Master Web Development, Graphic Design & Video Editing</h2>
-                <p class="academy-desc">Mascode Academy provides practical training in Web Development, Graphic Design, and Video Editing. Mentored by senior active engineers and creative professionals in Douala.</p>
+                <h2 class="academy-title">Master Software, Mobile, UI/UX & AI Engineering</h2>
+                <p class="academy-desc">Mascode Academy provides practical training in Web Development, Mobile Apps, Graphic Design & UI/UX, and AI Engineering. Mentored by active engineers in Douala.</p>
 
                 <div class="team-photo-card" style="margin: 1.5rem 0;">
                     <img src="images/team-mentors.png" alt="Mascode Academy Mentors & Students" loading="lazy">
@@ -204,10 +204,10 @@ include_once 'includes/navbar.php';
             </div>
 
             <div class="academy-features-list">
-                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>Web Development Training</span></div>
-                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>Graphic Design Masterclass</span></div>
-                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>Video Editing Post-Production</span></div>
-                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>Real-world portfolio building</span></div>
+                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>Full-Stack Web Engineering</span></div>
+                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>Mobile App Development</span></div>
+                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>Graphic Design & UI/UX Masterclass</span></div>
+                <div class="academy-feature-item"><i data-lucide="check-circle-2"></i><span>AI Development & ML Solutions</span></div>
             </div>
         </div>
     </div>

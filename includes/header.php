@@ -1,10 +1,10 @@
 <?php
 // Default Page Title if not provided
 if (!isset($pageTitle)) {
-    $pageTitle = "Mascode Lab | Software Engineering Company - Douala, Cameroon";
+    $pageTitle = "Mascode | Software Engineering Company - Douala, Cameroon";
 }
 if (!isset($pageDescription)) {
-    $pageDescription = "Mascode Lab is a premier software engineering company based in Douala, Cameroon. We build modern web applications, mobile apps, SaaS platforms, AI-powered software, and digital products.";
+    $pageDescription = "Mascode is a premier software engineering company based in Douala, Cameroon. We build modern web applications, mobile apps, SaaS platforms, AI-powered software, and digital products.";
 }
 ?>
 <!DOCTYPE html>
@@ -13,8 +13,8 @@ if (!isset($pageDescription)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
-    <meta name="keywords" content="Mascode Lab, Software Engineering, Douala Cameroon, Web Development, Mobile Apps, SaaS, AI Solutions, Software Academy">
-    <meta name="author" content="Mascode Lab">
+    <meta name="keywords" content="Mascode, Software Engineering, Douala Cameroon, Web Development, Mobile Apps, SaaS, AI Solutions, Software Academy">
+    <meta name="author" content="Mascode">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">

@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Contact Us | Mascode Lab - Douala, Cameroon";
-$pageDescription = "Get in touch with Mascode Lab in Douala, Cameroon. Send us a message or chat with us on WhatsApp for custom software, mobile apps, website development, or academy inquiries.";
+$pageTitle = "Contact Us | Mascode - Douala, Cameroon";
+$pageDescription = "Get in touch with Mascode in Douala, Cameroon. Send us a message or chat with us on WhatsApp for custom software, mobile apps, website development, or academy inquiries.";
 include_once 'includes/header.php';
 include_once 'includes/navbar.php';
 ?>
@@ -53,7 +53,7 @@ include_once 'includes/navbar.php';
                     </div>
                     <div>
                         <div class="contact-label">Phone</div>
-                        <a href="tel:+237600000000" class="contact-val">+237 600 000 000</a>
+                        <a href="tel:+237694255213" class="contact-val">+237 694 25 52 13</a>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ include_once 'includes/navbar.php';
                     <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:1rem;">
                         Need a quick response? Connect directly with our engineering team on WhatsApp.
                     </p>
-                    <a href="https://wa.me/237600000000?text=Hello%20Mascode%20Lab,%20I'd%20like%20to%20discuss%20a%20software%20project." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width:100%;">
+                    <a href="https://wa.me/237694255213?text=Hello%20Mascode,%20I'd%20like%20to%20discuss%20a%20software%20project." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width:100%;">
                         <i data-lucide="message-circle"></i>
                         <span>Chat on WhatsApp</span>
                     </a>

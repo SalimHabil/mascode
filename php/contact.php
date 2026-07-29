@@ -35,11 +35,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Success response - ready to log or integrate with PHPMailer / mail() / Database
     $response['success'] = true;
-    $response['message'] = 'Thank you for reaching out! The Mascode Lab team will get back to you within 24 hours.';
+    $response['message'] = 'Thank you for reaching out! The Mascode team will get back to you within 24 hours.';
 
     // Optional: Send email notification if mail server configured
     $to = 'contact@mascodelab.com';
-    $subject = "New Inquiry from Mascode Lab Website: " . $name;
+    $subject = "New Inquiry from Mascode Website: " . $name;
     $body = "Name: $name\nEmail: $email\nCompany: " . ($company ? $company : 'N/A') . "\n\nMessage:\n$message";
     $headers = "From: noreply@mascodelab.com\r\nReply-To: $email\r\n";
 
