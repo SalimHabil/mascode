@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Products We've Built | Mascode - SaaS & Software Platforms";
-$pageDescription = "Explore products built by Mascode: LedgPDF, LedgDrop, SchoolRipe, TrainMastas, Sandclip, and AskInterra. Every product solves a real business problem.";
+$pageDescription = "Explore products built by Mascode: LedgPDF, LedgDrop, SchoolRipe, TrainMastas, Sandclip, and Interra AI. Every product solves a real business problem.";
 include_once 'includes/header.php';
 include_once 'includes/navbar.php';
 ?>
@@ -159,30 +159,31 @@ include_once 'includes/navbar.php';
             </div>
 
 
-            <!-- 6. AskInterra -->
+            <!-- 6. Interra AI -->
             <div class="product-card">
                 <div>
                     <div class="product-img-wrapper">
-                        <img src="images/products/askinterra.svg" alt="AskInterra Interface Preview" loading="lazy">
+                        <img src="images/products/interra-preview.jpg" alt="Interra AI Interface Preview" loading="lazy">
                     </div>
                     <div class="product-header">
-                        <div class="product-logo-box">
-                            <i data-lucide="brain"></i>
+                        <div class="product-logo-box" style="display:flex; align-items:center; justify-content:center; background:rgba(200, 142, 28, 0.1); border:1px solid rgba(200, 142, 28, 0.25);">
+                            <img src="images/products/interra-logo.svg" alt="Interra AI Logo" style="width:26px; height:26px; object-fit:contain;">
                         </div>
-                        <span class="status-badge soon">
-                            <span class="badge-dot"></span> Coming Soon
+                        <span class="status-badge live">
+                            <span class="badge-dot"></span> Live
                         </span>
                     </div>
-                    <h3 class="product-title">AskInterra</h3>
+                    <h3 class="product-title">Interra AI</h3>
                     <p class="product-desc">
-                        An AI-powered enterprise knowledge assistant that indexes internal company documentation, SOPs, and project databases to provide instant, contextual answers to team members.
+                        An AI copilot dedicated to entrepreneurship, economics, and business management. It supports you step by step to design, launch, finance, and grow your business.
                     </p>
                 </div>
                 <div class="product-action">
-                    <button class="btn btn-secondary btn-disabled" disabled style="width:100%;">
-                        <span>Coming Soon</span>
-                        <i data-lucide="lock" class="btn-icon"></i>
-                    </button>
+                    <a href="https://interra.ai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%; display:flex; align-items:center; justify-content:center; gap:8px;">
+                        <img src="images/products/interra-logo.svg" alt="Interra AI Logo" style="width:18px; height:18px; object-fit:contain;">
+                        <span>Visit Website</span>
+                        <i data-lucide="external-link" class="btn-icon"></i>
+                    </a>
                 </div>
             </div>
         </div>

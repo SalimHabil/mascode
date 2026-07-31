@@ -21,7 +21,11 @@ if (!isset($pageDescription)) {
     <meta property="og:url" content="https://mascodelab.com/">
     <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
-    <meta property="og:image" content="images/logo.svg">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
 

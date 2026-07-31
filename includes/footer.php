@@ -53,7 +53,7 @@
                     <li><a href="products.php">SchoolRipe <span class="badge-mini live">Live</span></a></li>
                     <li><a href="products.php">TrainMastas <span class="badge-mini live">Live</span></a></li>
                     <li><a href="products.php">Sandclip <span class="badge-mini live">Live</span></a></li>
-                    <li><a href="products.php">AskInterra <span class="badge-mini soon">Soon</span></a></li>
+                    <li><a href="products.php">Interra AI <span class="badge-mini live">Live</span></a></li>
                 </ul>
             </div>
         </div>
