@@ -232,10 +232,9 @@ document.addEventListener('DOMContentLoaded', () => {
             } catch (error) {
                 console.error('Contact Form Error:', error);
                 if (formResponseMsg) {
-                    formResponseMsg.textContent = 'Thank you! Your message has been sent to Mascode.';
-                    formResponseMsg.className = 'form-response-msg success';
+                    formResponseMsg.textContent = 'Network error — your message could not be sent. Please try again, or reach us directly on WhatsApp.';
+                    formResponseMsg.className = 'form-response-msg error';
                     formResponseMsg.style.display = 'block';
-                    contactForm.reset();
                 }
             } finally {
                 submitBtn.disabled = false;

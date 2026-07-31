@@ -1,4 +1,10 @@
 <?php
+// Start session and generate CSRF token before any output
+session_start();
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+
 $pageTitle = "Contact Us | Mascode - Douala, Cameroon";
 $pageDescription = "Get in touch with Mascode in Douala, Cameroon. Send us a message or chat with us on WhatsApp for custom software, mobile apps, website development, or academy inquiries.";
 include_once 'includes/header.php';
@@ -92,6 +98,9 @@ include_once 'includes/navbar.php';
                         <label for="message" class="form-label">Project Details & Message *</label>
                         <textarea id="message" name="message" class="form-control" placeholder="Tell us about your project requirements or inquiry..." required></textarea>
                     </div>
+
+                    <!-- CSRF Protection Token -->
+                    <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
 
                     <button type="submit" class="btn btn-primary btn-glow" style="width:100%;">
                         <span>Send Message</span>
