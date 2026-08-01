@@ -159,6 +159,27 @@ include_once 'includes/navbar.php';
             </div>
 
 
+             <div class="product-card">
+                <div>
+                    <div class="product-img-wrapper">
+                        <img src="images/products/examcraft.svg" alt="ExamCraft Interface Preview" loading="lazy">
+                    </div>
+                    <div class="product-header">
+                        <div class="product-logo-box"><i data-lucide="clapperboard"></i></div>
+                        <span class="status-badge live"><span class="badge-dot"></span> Live</span>
+                    </div>
+                    <h3 class="product-title">ExamCraft</h3>
+                    <p class="product-desc">AI powered study tool for creating exam papers for revision and practice.</p>
+                </div>
+                <div class="product-action">
+                    <a href="https://examcraft.trainmastas.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width:100%;">
+                        <span>Visit Website</span>
+                        <i data-lucide="external-link" class="btn-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+
             <!-- 6. Interra AI -->
             <div class="product-card">
                 <div>
