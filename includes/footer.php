@@ -53,14 +53,15 @@
                     <li><a href="products.php">SchoolRipe <span class="badge-mini live">Live</span></a></li>
                     <li><a href="products.php">TrainMastas <span class="badge-mini live">Live</span></a></li>
                     <li><a href="products.php">Sandclip <span class="badge-mini live">Live</span></a></li>
-                    <li><a href="products.php">Interra AI <span class="badge-mini live">Live</span></a></li>
+                    <li><a href="products.php">ExamCraft <span class="badge-mini live">Live</span></a></li>
+                    <li><a href="products.php">Interra AI <span class="badge-mini live">Coming Soon</span></a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer-bottom">
             <p class="copyright">
-                © 2026 Mascode. All Rights Reserved. Building software that helps businesses scale worldwide.
+               © 2026 Mascode. All Rights Reserved. Building People. Building Products
             </p>
             <div class="social-links">
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">

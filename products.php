@@ -162,7 +162,7 @@ include_once 'includes/navbar.php';
              <div class="product-card">
                 <div>
                     <div class="product-img-wrapper">
-                        <img src="images/products/examcraft.svg" alt="ExamCraft Interface Preview" loading="lazy">
+                        <img src="images/products/examcraft.jpg" alt="ExamCraft Interface Preview" loading="lazy">
                     </div>
                     <div class="product-header">
                         <div class="product-logo-box"><i data-lucide="clapperboard"></i></div>
