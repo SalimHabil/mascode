@@ -38,6 +38,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $company = isset($_POST['company']) ? trim(strip_tags($_POST['company']))                           : '';
     $message = isset($_POST['message']) ? trim(strip_tags($_POST['message']))                           : '';
 
+    // Prevent email header injection in user-supplied fields
+    $name    = str_replace(["\r", "\n", "%0a", "%0d"], '', $name);
+    $company = str_replace(["\r", "\n", "%0a", "%0d"], '', $company);
+
     if (empty($name)) {
         $response['message'] = 'Please enter your full name.';
         echo json_encode($response);
@@ -66,9 +70,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // ── 6. Send email — with header injection prevention ─────────────────────
     $to      = 'contact@mascodelab.com';
     $subject = "Inquiry from Mascode Website: " . $name;
+    $subject = str_replace(["\r", "\n"], ' ', $subject);
     $body    = "Name: $name\nEmail: $email\nCompany: " . ($company ? $company : 'N/A') . "\n\nMessage:\n$message";
 
-    // Strip newlines/CR from $email to prevent SMTP header injection
+    // Strip newlines/CR from email to prevent SMTP header injection
     $safeEmail = str_replace(["\r", "\n", "%0a", "%0d"], '', $email);
     $headers   = "From: noreply@mascodelab.com\r\nReply-To: " . $safeEmail . "\r\n";
 

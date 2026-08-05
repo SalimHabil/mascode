@@ -30,11 +30,11 @@
                 <li><a href="products.html" class="nav-link">Products</a></li>
                 <li><a href="academy.html" class="nav-link">Academy</a></li>
                 <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="contact.php" class="nav-link active">Contact</a></li>
             </ul>
         </nav>
         <div class="navbar-actions">
-            <a href="contact.html" class="btn btn-secondary">
+            <a href="contact.php" class="btn btn-secondary">
                 <span>Contact Us</span>
                 <i data-lucide="mail" class="btn-icon"></i>
             </a>
@@ -52,7 +52,7 @@
             <li><a href="products.html" class="mobile-nav-link">Products</a></li>
             <li><a href="academy.html" class="mobile-nav-link">Academy</a></li>
             <li><a href="about.html" class="mobile-nav-link">About</a></li>
-            <li><a href="contact.html" class="mobile-nav-link active">Contact</a></li>
+            <li><a href="contact.php" class="mobile-nav-link active">Contact</a></li>
         </ul>
     </div>
 </header>
@@ -111,34 +111,15 @@
 
             <div class="contact-form-wrapper">
                 <h3 style="font-size:1.5rem; margin-bottom:1.5rem;">Send Us a Message</h3>
-                <form id="contact-form" action="process-contact.php" method="POST">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Full Name *</label>
-                        <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email Address *</label>
-                        <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="company" class="form-label">Company / Organization</label>
-                        <input type="text" id="company" name="company" class="form-control" placeholder="Your Company Name">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message" class="form-label">Project Details & Message *</label>
-                        <textarea id="message" name="message" class="form-control" placeholder="Tell us about your project requirements or inquiry..." required></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary btn-glow" style="width:100%;">
-                        <span>Send Message</span>
+                <div class="contact-form-fallback" style="padding:2rem; border:1px solid rgba(255,255,255,0.08); border-radius:16px; background:rgba(255,255,255,0.03);">
+                    <p style="margin-bottom:1.5rem; color:var(--text-secondary);">
+                        For the most secure submission experience, please use our PHP contact page. This ensures your message is protected with CSRF validation and secure form handling.
+                    </p>
+                    <a href="contact.php" class="btn btn-primary btn-glow" style="width:100%;">
+                        <span>Open Secure Contact Form</span>
                         <i data-lucide="send" class="btn-icon"></i>
-                    </button>
-
-                    <div id="form-response" class="form-response-msg"></div>
-                </form>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

@@ -6,6 +6,10 @@ if (!isset($pageTitle)) {
 if (!isset($pageDescription)) {
     $pageDescription = "Mascode is a premier software engineering company based in Douala, Cameroon. We build modern web applications, mobile apps, SaaS platforms, AI-powered software, and digital products.";
 }
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
+$requestUri = strtok($_SERVER['REQUEST_URI'], '?');
+$canonicalUrl = htmlspecialchars($protocol . $_SERVER['HTTP_HOST'] . $requestUri, ENT_QUOTES, 'UTF-8');
+$defaultOgImage = 'https://mascodelab.com/images/team-hero.png';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,14 +17,24 @@ if (!isset($pageDescription)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="<?php echo $canonicalUrl; ?>">
     <meta name="keywords" content="Mascode, Software Engineering, Douala Cameroon, Web Development, Mobile Apps, SaaS, AI Solutions, Software Academy">
     <meta name="author" content="Mascode">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mascodelab.com/">
+    <meta property="og:url" content="<?php echo $canonicalUrl; ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
+    <meta property="og:image" content="<?php echo $defaultOgImage; ?>">
+    <meta property="og:image:alt" content="Mascode - Software Engineering and Digital Products">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
+    <meta name="twitter:image" content="<?php echo $defaultOgImage; ?>">
+    <meta name="twitter:site" content="@Mascode">
+    <meta name="twitter:creator" content="@Mascode">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
