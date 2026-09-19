@@ -36,7 +36,7 @@ include_once 'includes/navbar.php';
             <div class="about-text">
                 <h2 class="section-title">Engineering Technology for Global Growth</h2>
                 <p>
-                    Mascode was founded in <strong>Douala, Cameroon</strong> by Ngoupayou Habil with a clear mandate: to deliver enterprise-grade software engineering that solvesupayoupayou payou Habil real business problems for startups, SMEs, and enterprise organizations across the global market.
+                    Mascode was founded in <strong>Douala, Cameroon</strong> with a clear mandate: to deliver enterprise-grade software engineering that solvesupayoupayou payou Habil real business problems for startups, SMEs, and enterprise organizations across the global market.
                 </p>
                 <p>
                     We believe that modern software should be fast, secure, beautiful, and maintainable. Whether we are building custom ERP systems, AI bank statement processors, school management tools, or cross-platform mobile apps, our work is defined by technical rigor and clean architectural standards.
